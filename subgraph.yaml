@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: V21Factory
-    network: rinkeby
+    network: matic
     source:
-      address: '0xcC71d8Ff0375F20Bce1690494Ac1Ed69084A5B42'
+      address: '0x6690C139564144b27ebABA71F9126611a23A31C9'
       abi: V21Factory
       startBlock: 7771115
     mapping:
@@ -34,9 +34,9 @@ dataSources:
       file: ./src/factory-mapping.ts
   - kind: ethereum/contract
     name: MinionFactory
-    network: rinkeby
+    network: matic
     source:
-      address: '0xedf6fa5b9d003f3ef2ac414e3476349f0fdabb28'
+      address: '0x91Eb3d16Cb09dC884bB3146e04C1A1cF80EEa548'
       abi: MinionFactory
       startBlock: 7737496
     mapping:
@@ -60,7 +60,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: MolochV21Template
-    network: rinkeby
+    network: matic
     source:
       abi: V21Moloch
     mapping:
